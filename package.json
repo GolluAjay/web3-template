@@ -1,0 +1,37 @@
+{
+  "name": "web3-template",
+  "version": "1.0.0",
+  "description": "Basic web3 app to interact with smart contracts locally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "start": "node index.js",
+    "ganache": "ganache --wallet.seed myCustomSeed",
+    "postinstall": "node setup-template.js"
+  },
+  "keywords": [],
+  "author": "GolluAjay",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.3.19",
+    "ganache": "^7.9.1",
+    "truffle": "^5.5.19",
+    "web3": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GolluAjay/web3-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GolluAjay/web3-template/issues"
+  },
+  "homepage": "https://github.com/GolluAjay/web3-template#readme"
+}
