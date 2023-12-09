@@ -1,0 +1,28 @@
+{
+  "name": "web3-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "start": "node index.js",
+    "ganache": "ganache --wallet.seed myCustomSeed"
+  },
+  "keywords": [],
+  "author": "GolluAjay",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "ganache": "^7.9.1",
+    "truffle": "^5.11.5",
+    "web3": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

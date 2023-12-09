@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = async function(deployer) {
-  await deployer.deploy(MyContract,123)
+  await deployer.deploy(MyContract,'Hello world')
     .then(async (instance) => {
       console.log('MyContract deployed at:', instance.address);
 
