@@ -13,22 +13,25 @@ Run the following command to use the template:
 ```bash
 npx web3-template app
 ```
-### How to Use the Template
+## How to Use the Template
 
-Start a local blockchain network:
+### Start a local blockchain network:
 ```bash
 npm run ganache
 ```
-Compile Solidity code using Truffle:
+**(Note : By default, Ganache runs on port 8545.)**
+
+### Compile Solidity code using Truffle:
 ```bash
 npm run compile
 ```
-Deploy smart contract to the blockchain network:
+### Deploy smart contract to the blockchain network:
 ```bash
 npm run migrate
 ```
+**(Note: This only works if Ganache starts.)**
 
-Start the web3 application:
+### Start the web3 application:
 ```bash
 npm run start
 ```
