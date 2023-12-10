@@ -1,6 +1,6 @@
 {
   "name": "web3-template",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Basic web3 app to interact with smart contracts locally",
   "main": "index.js",
   "bin": {

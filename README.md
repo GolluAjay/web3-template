@@ -1,6 +1,6 @@
 # web3-template
 
-**Version:** 1.2.0  
+**Version:** 1.2.1  
 **Author:** GolluAjay  
 **License:** ISC
 
@@ -38,11 +38,11 @@ npm run start
 
 ## Dependencies
 
-* **Commander** (^11.1.0)
+* **Commander (^11.1.0)**
 
-* **Cross-Spawn** (^7.0.3)
+* **Cross-Spawn (^7.0.3)**
 
-* **fs-extra** (^11.2.0)
+* **fs-extra (^11.2.0)**
 
 Node Version Requirement
 
